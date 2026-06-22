@@ -1,19 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #111827;
+    margin: 0;
+    padding: 0;
+    background: #121212;
     color: white;
-    text-align: center;
-    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
 }
 
 h1 {
+    text-align: center;
     color: #00ff99;
+    margin-bottom: 20px;
 }
 
-div {
-    background: #1f2937;
-    margin: 15px auto;
+.card {
+    background: #1f1f1f;
     padding: 15px;
+    margin-bottom: 15px;
     border-radius: 10px;
-    max-width: 350px;
+    box-shadow: 0 0 10px rgba(0,255,150,0.2);
+}
+
+.card h2 {
+    margin: 0 0 10px;
+    color: #00ccff;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#signal {
+    color: yellow;
+    font-size: 22px;
+    text-align: center;
 }
